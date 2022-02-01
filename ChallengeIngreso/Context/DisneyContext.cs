@@ -13,6 +13,5 @@ namespace ChallengeIngreso.Context
         public DbSet<Personaje> Personajes { get; set; }
         public DbSet<Pelicula_o_Serie> Pelicula_O_Series { get; set; }
         public DbSet<Genero> Generos { get; set; }
-        public object Personaje { get; internal set; }
-    }
+        }
 }
